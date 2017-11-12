@@ -1,0 +1,13 @@
+{
+    "name": "wildlyinaccurate/codeigniter-2-with-doctrine-2",
+    "require": {
+        "doctrine/orm": "2.5.0",
+        "dropbox/dropbox-sdk": "1.1.*"
+    },
+    "authors": [
+        {
+            "name": "Vu le Hoang",
+            "email": "hoangvu171819@gmail.com"
+        }
+    ]
+}
