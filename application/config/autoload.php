@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database', 'doctrine', 'session', 'clog', 'ccode');
+$autoload['libraries'] = array('database', 'doctrine', 'session');
 
 /*
 | -------------------------------------------------------------------
