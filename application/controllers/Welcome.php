@@ -5,6 +5,6 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
-		echo 'Due!'
+		echo 'Due!';
 	}
 }
