@@ -42,10 +42,10 @@ class CustomerController extends ApiBaseController{
 			$customerQuery = $customerQuery->where('cu.phone like :phone');
 			$customerQuery = $customerQuery->setParameter('phone', '%' . $q . '%');
 
-			$customerQuery = $customerQuery->andWhere('cu.fullname like :fullname');
+			$customerQuery = $customerQuery->orWhere('cu.fullname like :fullname');
 			$customerQuery = $customerQuery->setParameter('fullname', '%' . $q . '%');
 
-			$customerQuery = $customerQuery->andWhere('cu.address like :address');
+			$customerQuery = $customerQuery->orWhere('cu.address like :address');
 			$customerQuery = $customerQuery->setParameter('address', '%' . $q . '%');
 		}
 
